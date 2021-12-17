@@ -5,14 +5,6 @@ import theme from 'theme';
 import SEO from 'components/seo';
 import Layout from 'components/layout';
 import Banner from 'sections/banner';
-import Services from 'sections/services';
-import Jackpot from 'sections/jackpot';
-import CallToAction from 'sections/call-to-action';
-import Featured from 'sections/featured';
-import Pricing from 'sections/pricing';
-import Testimonials from 'sections/testimonials';
-import Blogs from 'sections/blogs';
-import FAQ from 'sections/faq';
 import Subscribe from 'sections/subscribe';
 
 export default function IndexPage() {
@@ -22,14 +14,6 @@ export default function IndexPage() {
         <Layout>
           <SEO title="Kuclear.com" />
           <Banner />
-          {/* <Services /> */}
-          {/* <Jackpot />
-          <CallToAction />
-          <Featured />
-          <Pricing />
-          <Testimonials />
-          <Blogs />
-          <FAQ /> */}
           <Subscribe />
         </Layout>
       </StickyProvider>
